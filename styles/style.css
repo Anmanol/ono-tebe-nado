@@ -1,1 +1,125 @@
-/* место для вашего кода */
+body {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.01em;
+color: #000000;
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr 148px 1fr;
+  margin: 92px 24px 96px;
+}
+.header__menu {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 13px;
+
+}
+.header__links-list {
+  list-style: circle;
+  display: flex;
+  list-style-position: inside;
+}
+.header__links-list-item {
+  padding-left: 13px;
+}
+.header__links-list-item:first-child {
+  list-style: none;
+  padding-left: 0;
+}
+.header__links-lis-itemt ::marker {
+  margin-right: 11px;
+}
+.header__links_active {
+}
+.header__link {
+}
+.header__logo {
+  display: block;
+  height: 105px;
+  width: 148px;
+}
+.header__logo-image {
+}
+.header__address {
+ width: 240px; 
+}
+.cover {
+}
+.overlay {
+}
+.cover__title {
+}
+.aligned-text {
+}
+.no-letter-spacing {
+}
+.aligned-text_center {
+}
+.aligned-text_right {
+}
+.cover__description {
+}
+.cover__description-text {
+}
+.bet-button {
+}
+.lots {
+}
+.lots__heading {
+}
+.lots__card-list {
+}
+.lots__card-list-item {
+}
+.card-link {
+}
+.card {
+}
+.card_type_film {
+}
+.card__title {
+}
+.card__text {
+}
+.lots__look-more-link {
+}
+.card_type_book {
+}
+.card_type_picture {
+}
+.about {
+}
+.about__column {
+}
+.about__logo {
+}
+.about__logo-image {
+}
+.about__title {
+}
+.about__text {
+}
+.footer__address {
+}
+.footer__menu {
+}
+.footer__links-list {
+}
+.footer__links-list-item {
+}
+.footer__links_active {
+}
+.footer__link {
+}
+.footer__social-list {
+}
+.footer__social-list-item {
+}
+.footer__social-link {
+}
+.footer__social-icon {
+}
