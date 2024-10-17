@@ -9,61 +9,104 @@ color: #000000;
 }
 header {
   display: grid;
-  grid-template-columns: 1fr 148px 1fr;
-  margin: 92px 24px 96px;
+  grid-template-columns: 1fr 138px 1fr;
+  margin: 92px 24px 90px;
+  font-size: 18px;
+  align-items: center;
 }
 .header__menu {
   display: inline-flex;
   flex-direction: row;
-  gap: 13px;
-
+  justify-content: end;
 }
 .header__links-list {
   list-style: circle;
   display: flex;
-  list-style-position: inside;
+  align-items: center;
+  margin-right: 40px;
 }
 .header__links-list-item {
-  padding-left: 13px;
+  /*padding-left: 11px;*/
+  margin-left: 30px;
 }
 .header__links-list-item:first-child {
   list-style: none;
   padding-left: 0;
+  margin-left: 0;
 }
 .header__links-lis-itemt ::marker {
   margin-right: 11px;
 }
 .header__links_active {
+  text-decoration: none;
 }
 .header__link {
 }
 .header__logo {
   display: block;
-  height: 105px;
-  width: 148px;
+  width: 138px;
 }
 .header__logo-image {
 }
 .header__address {
- width: 240px; 
+ width: 240px;
+ margin-left: 191px;
 }
 .cover {
+  width: 1100px;
+  position: relative;
+  background-image: url(/images/cover.jpg);
+  background-size: cover;
+  color: white;
 }
 .overlay {
+  position: absolute;
+  top:0;
+  left:0;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
 .cover__title {
+position: relative;
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 124%;
+letter-spacing: 0.3em;
+text-transform: uppercase;
+color: #FFFFFF;
+padding: 160px 50px 135px;
+z-index: 2;
 }
 .aligned-text {
+  display: block;
+}
+.letter-spacing-extended {
+  letter-spacing: 0.6em;  
 }
 .no-letter-spacing {
+letter-spacing: 0;
 }
 .aligned-text_center {
+  display: block;
+  margin-left: 288px;
 }
 .aligned-text_right {
+  display: block;
+  text-align: right;
 }
 .cover__description {
+position: relative;
+z-index: 2;
 }
 .cover__description-text {
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+text-transform: uppercase;
 }
 .bet-button {
 }
