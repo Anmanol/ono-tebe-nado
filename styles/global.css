@@ -36,3 +36,8 @@ img {
 address {
   font-style: normal;
 }
+
+button {
+  background: none;
+  border: none;
+}
