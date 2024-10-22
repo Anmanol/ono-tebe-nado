@@ -234,15 +234,11 @@ footer {
   line-height: 24px;
   color: #000000;
 }
-.footer__menu {
-}
 .footer__links-list {
   list-style: none;
   text-align: center;
   font-size: 18px;
   line-height: 21px;
-}
-.footer__links-list-item {
 }
 .footer__links_active {
   text-decoration: none;
